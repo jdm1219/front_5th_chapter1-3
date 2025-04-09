@@ -25,7 +25,6 @@ export default ({ mode }: { mode: string }) => {
         rollupOptions: {
           input: {
             main: resolve(__dirname, "index.html"),
-            hash: resolve(__dirname, "index.hash.html"),
           },
         },
       },
